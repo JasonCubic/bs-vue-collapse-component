@@ -1,5 +1,5 @@
 {
-  "name": "bs-vue-collapse-mixin",
+  "name": "bs-vue-collapse-component",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "core-js": "^2.6.5",
+    "lodash": "^4.17.11",
     "vue": "^2.6.6"
   },
   "devDependencies": {
@@ -30,7 +31,16 @@
       "plugin:vue/essential",
       "@vue/airbnb"
     ],
-    "rules": {},
+    "rules": {
+      "no-console": 0,
+      "linebreak-style": 0,
+      "max-len": [
+        "warn",
+        {
+          "code": 175
+        }
+      ]
+    },
     "parserOptions": {
       "parser": "babel-eslint"
     }
